@@ -10,7 +10,7 @@
             {
                 "function": "mercado_bitcoin.lambda_function.lambda_handler",
                 "expression": "rate(1 minute)"
-            },
+            }
         ],
         "memory_size": 128,
         "apigateway_enabled": false
